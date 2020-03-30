@@ -1,0 +1,16 @@
+version: '3'
+services:
+  database_1:
+    image: postgres:11.5-alpine
+    restart: always
+    volumes:
+      - aplicandomvcdb:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: babifacul
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: aplicandomvc
+      TZ: America/Sao_Paulo
+volumes:
+  aplicandomvcdb:
