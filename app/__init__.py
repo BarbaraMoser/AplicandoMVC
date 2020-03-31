@@ -1,7 +1,9 @@
 from flask import Flask, json
 from werkzeug.exceptions import HTTPException, InternalServerError
 
+from app.views.cadastro_view import app_cadastro
 from app.views.login_view import app_login
+from app.views.start_view import app_start
 from database import db, migrate
 
 
@@ -17,6 +19,8 @@ def create_app():
 
 def _register_blueprint(app):
     app.register_blueprint(app_login)
+    app.register_blueprint(app_cadastro)
+    app.register_blueprint(app_start)
 
 
 def _handle_default_exception(e):

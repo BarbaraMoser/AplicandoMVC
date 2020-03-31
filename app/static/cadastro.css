@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+html {
+  /* background-color: #56baed; */
+	background: #fcecfc; /* Old browsers */
+	background: -moz-linear-gradient(top, #fcecfc 0%, #fba6e1 38%, #fd89d7 65%, #ff7cd8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fcecfc 0%,#fba6e1 38%,#fd89d7 65%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 38%,#fd89d7 65%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); /* IE6-9 */
+	height: 160%;
+}
+
+body {
+    height: 100vh;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+	text-align: middle;
+	white-space: nowrap;
+	position: relative;
+	left: 10%;
+	padding: 20px;
+}
+
+h4 {
+	padding: 2 60 5 270px;
+}
+
+label {
+	position: relative;
+	align: middle;
+	font-size: 20px;
+}
+
+.cadastro{
+	position: relative;
+	align: middle;
+	padding: 10px;
+	font-size: 30px;
+
+}
+
+.input-md{
+	width: 80%;
+	font-size: 16px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 5px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.saveButton {
+  color: #ffffff;
+  font-weight: bold;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 50px;
+  width: 30%;
+ }
+
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  /* margin: 5px 20px 40px 20px; */
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  left: 10%;
+}
